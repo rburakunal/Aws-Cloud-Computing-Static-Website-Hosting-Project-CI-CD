@@ -20,4 +20,4 @@ jobs:
 
       - name: Deploy to AWS S3
         run: |
-          aws s3 sync . s3://<dusantadic> --delete
+          aws s3 sync . s3://<dusantadicdemo> --delete
