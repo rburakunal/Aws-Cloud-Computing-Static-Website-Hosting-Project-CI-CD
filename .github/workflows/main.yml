@@ -19,5 +19,5 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy to AWS S3
-        run: |
+        run: 
           aws s3 sync . s3://<dusantadic> --delete
